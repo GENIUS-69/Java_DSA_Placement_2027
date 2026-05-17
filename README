@@ -1,0 +1,123 @@
+# 🚀 Ultimate Java + Data Structures & Algorithms Bootcamp
+
+Welcome to my definitive repository for mastering **Java** and **Data Structures & Algorithms (DSA)**! This repository serves as an engineered, centralized hub for all my code implementations, notes, architectural dry-runs, and optimized solutions to high-frequency interview problems.
+
+---
+
+## 🙋‍♂️ Who Am I?
+
+Hi, I'm **Sarthak Hota**! 👋  
+I am a Computer Science student pursuing my **Master of Computer Applications (MCA)** at **Veer Surendra Sai University of Technology (VSSUT)** in Burla, Odisha. 
+
+* 🌐 **Portfolio:** [sarthakhota.vercel.app](https://sarthakhota.vercel.app/)
+* 💼 **LinkedIn:** [linkedin.com/in/sarthak-hota](https://www.linkedin.com/in/sarthak-hota)
+* 🛠️ **Technical DNA:** Alongside core algorithms, I hold a background in Network Infrastructure (CCNA-certified Network Associate), UI/UX design, and Full-Stack Web Development. I focus on merging system-level thinking with clean, robust, and highly optimized code.
+
+---
+
+## 👨‍🏫 About My Tutor
+
+I am documenting my journey through the rigorous curriculum taught by **Kunal Kushwaha** (Founder of **WeMakeDevs**). 
+
+* 📺 **Course Playlist:** [Java + DSA + Interview Preparation Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+* **The Philosophy:** Kunal’s teaching methodology focuses on a deep, first-principles understanding—explaining everything from exact memory allocations (Stack vs. Heap, Reference variables) to breaking down complex LeetCode Hard problems into modular, logical steps.
+
+---
+
+## 🎯 My Learning Methodology
+
+To transition from a developer to an elite problem solver, I follow a strict **"Build, Break, Optimize"** feedback loop:
+
+1. **Active Code-Along & Commentary:** Every line of code is written concurrently with the lessons, heavily documented with custom comments explaining *why* a particular approach was taken.
+2. **First-Principles & Manual Dry-Running:** Prioritizing tracing code on paper. I sketch pointer movements, recursive call trees, and variable tables before committing solutions to code.
+3. **Complexity-First Architecture:** Analyzing and writing down the strict **Time ($\mathcal{O}$)** and **Space Complexity** for every single script to guarantee optimal execution limits.
+4. **Targeted Interview Application:** Consistently solving assignment tasks on LeetCode, GeeksforGeeks, and Codeforces to lock down conceptual patterns.
+
+---
+
+## 📂 Deep-Dive Breakdown of the DSA Curriculum
+
+This repository is strictly organized into conceptual folders mapping exactly to the remaining roadmap of the course starting from Arrays:
+
+### 📥 01. Linear Arrays & Dynamic Vectors (`/01-Arrays-ArrayList`)
+* **Core Topics:** Memory allocation in Java (why arrays aren't continuous in memory due to JVM heap architecture), Reference variables, Multi-dimensional arrays (Matrix representation).
+* **Dynamic Arrays:** Internal working mechanisms of an `ArrayList`, resizing factors, and amortized time complexity analysis.
+
+### 🔍 02. Searching Paradigms (`/02-Searching-Algorithms`)
+* **Linear Search:** Exhaustive search models, flag mechanics, and basic array traversal optimization.
+* **Binary Search (1D Arrays):** Divisive search space deduction, avoiding integer overflow (`low + (high - low) / 2`), Order-Agnostic Binary Search.
+* **Matrix Searching:** Binary search applications on 2D arrays (sorted row/column-wise matrices vs. strictly sorted matrices).
+* **FAANG Interview Patterns:** Ceil/Floor of a number, Peak index in a mountain array, Search in rotated sorted array, Infinite array search models.
+
+### ⚡ 03. Advanced Sorting Architecture (`/03-Sorting-Algorithms`)
+* **Iterative & Non-Recursive Sorting:**
+  * **Bubble Sort:** In-place stable sorting, pass-by-pass bubbling, adaptive optimizations.
+  * **Selection Sort:** Unstable sorting mechanism by selecting minimum/maximum elements.
+  * **Insertion Sort:** Adaptive, stable sorting ideal for partially sorted datasets.
+* **Cyclic Sort Pattern (The Interview Super-Weapon):** O(N) sorting for contiguous ranges ($1$ to $N$). Applied directly to crack frequent Amazon/Google interview tracking problems like finding missing numbers, duplicate elements, and all missing/duplicate pairs.
+* **Advanced Linear Sorting:** Count Sort (frequency mapping) and Radix Sort (digit-by-digit stability processing).
+
+### 🧵 04. String Processing & Logic Building (`/04-Strings-Pattern-Logic`)
+* **Strings & Memory:** The String Constant Pool (SCP), immutability vs. mutability, performance pitfalls of string concatenation.
+* **StringBuilder & StringBuffer:** Modifying sequences with $\mathcal{O}(1)$ amortized operations, working with massive data streams.
+* **Pattern Tricks:** Mastering nested loop bounds to demystify visual, matrix, and geometric structural printing.
+
+### 🌳 05. The Core of Recursion & Backtracking (`/05-Recursion-Backtracking`)
+* **Foundations:** The Call Stack, Base Conditions, Stack Overflows, and converting Iteration to Recursion.
+* **Mathematical & Array Recursion:** Working through recurrence relations, linear/binary search over recursive paths, sorting arrays recursively (Merge Sort & Quick Sort partition mechanics).
+* **Combinatorics & Strings:** Generating Subsets, Subsequences, Permutations, String parsing, and Game Theory choices (Dice Throw, Phone Number Combinations).
+* **Backtracking Engine:** Reverting state variables upon stack popping. Solving classical constraints: Grid/Maze routing, N-Queens, N-Knights, and Sudoku Solvers.
+
+### 📊 06. Algorithmic Mathematical Subsystems (`/06-Mathematical-DSA`)
+* **Bitwise Operations:** Bit masking, bit-shifting, finding unique elements in duplicated streams, computing subsets via bitwise flags.
+* **Number Theory:** Fast Exponentiation, Prime generation (Sieve of Eratosthenes), Euclidean GCD/LCM, Square root optimization algorithms, and factor analysis.
+
+### 🏗️ 07. Object-Oriented Software Design (`/07-OOP-Design`)
+* **Fundamentals:** Classes, Objects, Instantiation, Stack vs Heap objects, constructors, `this` and `super` keywords.
+* **The 4 Pillars:** Inheritance, Polymorphism (Overloading vs Overriding), Encapsulation (Access Modifiers), and Abstraction (Abstract Classes vs Interfaces).
+* **Enterprise Java:** Generics (Custom ArrayList creation), Lambda Expressions, Exception Handling subsystems, Object Cloning patterns, and a complete architectural exploration of the built-in **Java Collections Framework**.
+
+### 🔗 08. Custom Linked Data Structures (`/08-Linked-Lists`)
+* **Structural Implementations:** Building Singly Linked Lists (SLL), Doubly Linked Lists (DLL), and Circular Linked Lists (CLL) completely from scratch without utility dependencies.
+* **Pointer Manipulation Problems:** Tortoise and Hare algorithm (Cycle detection/extraction), Reversing lists in-place, merging sorted variants, and sorting linked nodes (Merge Sort on Lists).
+
+### 🪵 09. Restricted Linear Nodes (`/09-Stacks-Queues`)
+* **Stacks & Queues:** Custom Array-backed stacks, Dynamic Stacks, Circular Queues, and Deques.
+* **Analytical Processing:** Valid Parentheses checking, Next Greater Element problems, Largest Rectangle in Histogram, and building a full 15-minute functional Tic-Tac-Toe system.
+
+### 🗄️ 10. Memory Subsystems & Java I/O (`/10-Java-Utilities-Files`)
+* **Precision Math:** Managing massive data calculations using `BigInteger` and `BigDecimal`.
+* **File Handling Engine:** Streams, Reader/Writer nodes, managing disk I/O, and data tokenization.
+
+### 🌲 11. Hierarchical Non-Linear Trees (`/11-Trees`)
+* **Binary Trees:** Node structure, Recursive/Iterative Traversals (Pre-order, In-order, Post-order, Level-order BFS).
+* **Specialized Tree Variants:**
+  * **Binary Search Trees (BST):** Properties, structural validations, insertions, deletions, and balance testing.
+  * **AVL Trees:** Self-balancing algorithms using Left/Right Rotations upon height factor violations.
+  * **Segment Trees:** Optimizing Range Query problems and Point Updates down to $\mathcal{O}(\log N)$.
+
+### 🗺️ 12. Hashing, Heaps, & Pattern Matching (`/12-Heaps-HashMaps`)
+* **Heaps:** Max-Heaps, Min-Heaps, custom Priority Queues, and the Heapsort workflow.
+* **Hashing Architecture:** Internal mechanics of a `HashMap` and `HashTable`, collision resolution strategies (Chaining, Open Addressing), and load-factor calculations.
+* **String Substring Searching:** The Karp-Rabin String Matching Algorithm utilizing rolling hash computations.
+
+### 🔮 13. Advanced Competitive Paradigms (`/13-Advanced-Algorithms`)
+* **Compression:** Greedy choices with Huffman Coding trees to compress/decompress string payloads.
+* **Range Queries:** Block decomposition models, Square Root Decomposition, and Mo's Algorithm for offline query optimizations.
+* **Elite Graph/Tree Interview Breakdowns:** Building graph-level transformations like Word Ladder, solving Tree inversions, Preorder/Inorder structural reconstructions, and node-swapping error corrections.
+
+---
+
+## 📈 Roadmap & Milestones Tracker
+
+- [ ] **Phase 1: Linear Arrays & Deep Search Implementations** (Videos 12–16)
+- [ ] **Phase 2: Complete Sorting Architectures & String Pools** (Videos 17–22)
+- [ ] **Phase 3: The Call Stack, Advanced Recursion & Backtracking Engine** (Videos 23–36)
+- [ ] **Phase 4: Production-Grade Object-Oriented System Design** (Videos 37–43)
+- [ ] **Phase 5: Custom Pointers, Node Lists, Stacks & Queues** (Videos 44–48)
+- [ ] **Phase 6: Hierarchical Trees, Self-Balancing Nodes & Range Queries** (Videos 49–55)
+- [ ] **Phase 7: Priority Queues, Hashing Systems & Elite Interview Crackers** (Videos 56–69)
+
+---
+
+⭐ **Feel free to star this repository if you find my code implementations, comments, or notes helpful on your own DSA journey!**
