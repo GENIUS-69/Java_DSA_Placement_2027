@@ -1,4 +1,3 @@
-
 public class ReverseString {
   public void reverseString(char[] arr) {
     for (int start = 0, end = arr.length - 1; start <= end; start++, end--) {
