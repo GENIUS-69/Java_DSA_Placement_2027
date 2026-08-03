@@ -18,5 +18,6 @@ public class Main {
     }
 
     System.out.println(Arrays.toString(arr)); // use of Arrays utility class
+    sc.close();
   }
 }
