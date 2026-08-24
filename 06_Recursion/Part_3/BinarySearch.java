@@ -1,9 +1,7 @@
-
 public class BinarySearch {
   public static void main(String[] args) {
-    int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    boolean result = BS(arr, 6, 0, arr.length - 1);
-    System.out.println(result);
+    int[] arr = { 2, 3, 5, 7, 8, 11, 16, 18, 19 };
+    System.out.println(BS(arr, 11, 0, arr.length - 1));
   }
 
   static boolean BS(int[] arr, int key, int start, int end) {

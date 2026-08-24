@@ -1,8 +1,5 @@
 // https://leetcode.com/problems/first-missing-positive/
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MissingPositive {
   public int firstMissingPositive(int[] nums) {
     int i = 0;
